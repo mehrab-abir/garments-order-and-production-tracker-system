@@ -6,18 +6,18 @@ import { CiLight } from "react-icons/ci";
 
 const Header = () => {
   // theme change
-  const [theme, setTheme] = useState(() => {
-    localStorage.getItem("theme") || "light";
-  });
+  const [theme, setTheme] = useState(
+    () => localStorage.getItem("theme") || "light",
+  );
 
   useEffect(() => {
     const html = document.documentElement;
     html.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
-  });
+  }, [theme]);
 
   return (
-    <header className="bg-surface py-5 border-b border-gray-400">
+    <header className="bg-surface py-5 border-b border-gray-400 fixed w-full z-10">
       <Container>
         <div className="flex items-center justify-between">
           <h1 className="text-xl font-bold bg-primary text-white px-1 rounded-md">
