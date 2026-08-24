@@ -17,7 +17,7 @@ const Header = () => {
   }, [theme]);
 
   return (
-    <header className="bg-surface py-5 border-b border-gray-400 fixed w-full z-10">
+    <header className="bg-surface py-5 border-b border-gray-400 fixed w-full z-50">
       <Container>
         <div className="flex items-center justify-between">
           <h1 className="text-xl font-bold bg-primary text-white px-1 rounded-md">
