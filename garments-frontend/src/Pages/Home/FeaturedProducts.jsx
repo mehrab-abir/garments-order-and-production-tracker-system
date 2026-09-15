@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const FeaturedProducts = () => {
   return (
-    <div>
+    <div className="pb-10">
       <Container>
         <h4 className="text-sm lg:text-lg text-accent">Factory Catalog</h4>
         <div className="flex justify-between items-center mb-10">

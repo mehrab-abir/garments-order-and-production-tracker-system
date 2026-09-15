@@ -41,7 +41,7 @@ const Header = () => {
             )}
 
             <div className="flex gap-2">
-              <button className="btn btn-md border border-primary outline-none rounded-md text-forground">
+              <button className="btn btn-md border border-primary outline-none rounded-md text-foreground">
                 Login
               </button>
               <button className="btn btn-md bg-primary rounded-md border-primary text-white">

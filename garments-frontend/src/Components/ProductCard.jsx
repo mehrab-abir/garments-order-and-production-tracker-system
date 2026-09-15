@@ -16,7 +16,7 @@ const ProductCard = () => {
       </div>
 
       <div className="p-4 mt-4">
-        <h3 className="text-lg font-bold text-forground">
+        <h3 className="text-lg font-bold text-foreground">
           Classic Oxford Dress Shirt
         </h3>
         <div className="flex items-center justify-between mb-4">

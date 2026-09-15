@@ -7,12 +7,12 @@ const Banner = () => {
 
       {/* banner content */}
       <div className="flex flex-col items-left w-10/12 xlg:w-10/12 mx-auto z-10 relative mt-10">
-        <span className="bg-transparent border border-amber-500 text-amber-500 w-fit rounded-full px-4 flex items-center gap-2 font-semibold">
+        <span className="bg-transparent border border-amber text-amber w-fit rounded-full px-4 flex items-center gap-2 font-semibold">
           <BsLightningCharge />{" "}
           <span className="text-sm md:text-base">PRODUCTION TRACKER</span>
         </span>
         <h1 className="text-white text-3xl md:text-4xl lg:text-6xl font-bold my-4">
-          From Cut to <span className="text-amber-600">Delivery.</span>
+          From Cut to <span className="text-amber">Delivery.</span>
           <br />
           Tracked.
         </h1>
