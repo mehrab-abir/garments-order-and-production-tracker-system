@@ -4,11 +4,11 @@ import { Outlet } from "react-router";
 
 const Root = () => {
   return (
-    <>
+    <div className="bg-background">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
-    </>
+    </div>
   );
 };
 

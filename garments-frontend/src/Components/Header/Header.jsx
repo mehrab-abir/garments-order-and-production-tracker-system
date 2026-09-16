@@ -20,9 +20,12 @@ const Header = () => {
     <header className="bg-surface py-5 border-b border-gray-400 fixed w-full z-50">
       <Container>
         <div className="flex items-center justify-between">
-          <h1 className="text-xl font-bold bg-primary text-white px-1 rounded-md">
-            TT
-          </h1>
+          <div className="flex">
+            <h1 className="text-xl font-bold bg-primary text-white px-1 rounded-md">
+              TT
+            </h1>
+            <h1 className="text-xl font-bold text-foreground ml-2">Thread<span className="text-amber">Track</span></h1>
+          </div>
           <NavbarLargeDevice></NavbarLargeDevice>
 
           <div className="flex items-center justify-between gap-4">
